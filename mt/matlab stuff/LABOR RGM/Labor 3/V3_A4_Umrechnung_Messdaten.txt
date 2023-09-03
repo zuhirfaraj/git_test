@@ -1,0 +1,8 @@
+Valentin Finsterle 03/05/2020 Gruppe A2
+
+a)
+t = (tlow+256*thigh) * 10^-2
+
+b)
+w = wlow + 256 * whigh - 1000
+phigrad = w/1024*360

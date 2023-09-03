@@ -1,0 +1,14 @@
+%%
+% Thorben Schulz, SoSe2021GruppeB, 04.05.2021
+% Aufgabe 4
+%%
+
+a ) Umrechnung der Zeit
+
+Abtastzeit 10ms = 10*10^-3s = 10^-2s
+I = (tlow+2^8*thigh)=(tlow+256*thigh)*10^-2
+
+b) Umrechnung des Winkels
+
+w = wlow + 2^8 *whigh-1000= wlow+256*thigh-1000
+phi = w/1024*360
